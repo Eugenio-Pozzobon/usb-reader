@@ -79,16 +79,18 @@ fun main(): Unit = application {
         withContext(Dispatchers.IO) {
             comPortOutputStream.write(105)
             Thread.sleep(500)
-            serialLineRead = bufferR.readLine()
+            do{
+                serialLineRead = bufferR.readLine()
+            }while(serialLineRead.split(",").size != 2)
             println(serialLineRead)
         }
         try {
-            lastSavedLogId = serialLineRead.split(",")[0].toInt()
-            saveTime = serialLineRead.split(",")[1].toInt()
-            print("lastSavedLogId: ")
-            println(lastSavedLogId)
-            print("saveTime: ")
-            println(saveTime)
+                lastSavedLogId = serialLineRead.split(",")[0].toInt()
+                saveTime = serialLineRead.split(",")[1].toInt()
+                print("lastSavedLogId: ")
+                println(lastSavedLogId)
+                print("saveTime: ")
+                println(saveTime)
         }catch (e: Exception) {
             e.printStackTrace()
         }
@@ -213,8 +215,8 @@ fun main(): Unit = application {
                 bufferR.readLine()
             }
         } while (serialLineRead != " - Starting - ")
-        print("Conectado!")
         getInfo()
+        println("Conectado!")
         statusConexao.value = true
 
     }

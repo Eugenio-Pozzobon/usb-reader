@@ -1,0 +1,244 @@
+newlog id 01
+Programa destinado à Gravação de NTC
+Compiled: Jun 18 2022, 00:24:29, 7.3.0
+
+	 Inicializando cartao SD...	Inicializacao terminada
+	 STARTING TO WRITE
+ - Tecle 'p' para printar o arquivo
+ - Tecle 'd' para deletar o arquivo
+NTC: 0.00 | 0.00
+NTC: 0.00 | 0.00
+	LOG.CSV removido com sucesso
+	 STARTING TO WRITE
+NTC: 8.23 | 7.62
+NTC: 8.23 | 7.62
+NTC: 8.23 | 7.62
+NTC: 8.23 | 7.92
+NTC: 8.23 | 7.92
+NTC: 8.23 | 7.92
+NTC: 8.23 | 7.77
+NTC: 8.23 | 7.77
+NTC: 8.23 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.38 | 7.62
+			 Gravando
+NTC: 8.38 | 7.62
+NTC: 8.38 | 7.62
+NTC: 8.07 | 7.77
+Mensagem do arquivo de texto que esta no cartao SD:
+
+t,tk_1,tk_2
+6160,8.38,7.62
+
+
+Fim do Arquivo
+
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.07 | 7.77
+NTC: 8.23 | 7.62
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
+null
